@@ -1,6 +1,10 @@
-# Convert-Text-To-Speech-Pro-And-Translate-Too
+# Convert-Text-To-Speech-And-Translate-Too
 
-Demo : https://yusuf-ibrahim-malik-dev.github.io/Convert-Text-To-Speech-Pro-And-Translate-Too/convert_text_to_speech_and_translate.html
+Password :123
+
+<img width="335" height="135" alt="image" src="https://github.com/user-attachments/assets/d410a8f8-ccfa-48bf-b863-30a6216e00f1" />
+
 
 Screenshoot Convert Text to Speech: 
-<img width="1920" height="1615" alt="image" src="https://github.com/user-attachments/assets/f10c63f6-48c7-48ed-8e2b-b0b63cf2ee5f" />
+<img width="1914" height="1157" alt="image" src="https://github.com/user-attachments/assets/59b19f1c-9a91-47b9-896c-0645bbb9b160" />
+
