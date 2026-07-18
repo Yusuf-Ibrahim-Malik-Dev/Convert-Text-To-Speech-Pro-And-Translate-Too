@@ -6,5 +6,6 @@ Password :123
 
 
 Screenshoot Convert Text to Speech: 
-<img width="1914" height="1157" alt="image" src="https://github.com/user-attachments/assets/59b19f1c-9a91-47b9-896c-0645bbb9b160" />
+<img width="1908" height="1146" alt="image" src="https://github.com/user-attachments/assets/1a91516e-5b04-48aa-b08a-682455713e13" />
+
 
