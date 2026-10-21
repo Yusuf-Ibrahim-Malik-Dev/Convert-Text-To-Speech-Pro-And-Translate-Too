@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertTextToSpeech", "ConvertTextToSpeech.csproj", "{A8F1D2C3-91B4-4D52-9F07-7B8A5C21D4E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertTextToSpeech", "ConvertTextToSpeech.csproj", "{C48B6A4B-4D1B-4EAB-8B8D-CC1BDA0E9E4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,15 +10,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A8F1D2C3-91B4-4D52-9F07-7B8A5C21D4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A8F1D2C3-91B4-4D52-9F07-7B8A5C21D4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A8F1D2C3-91B4-4D52-9F07-7B8A5C21D4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A8F1D2C3-91B4-4D52-9F07-7B8A5C21D4E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C48B6A4B-4D1B-4EAB-8B8D-CC1BDA0E9E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48B6A4B-4D1B-4EAB-8B8D-CC1BDA0E9E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48B6A4B-4D1B-4EAB-8B8D-CC1BDA0E9E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48B6A4B-4D1B-4EAB-8B8D-CC1BDA0E9E4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B807479B-1F35-4738-BA81-0AA38B3DD4C9}
+		SolutionGuid = {B16E6D0B-61D2-4DF3-B51E-A09908F1A22E}
 	EndGlobalSection
 EndGlobal

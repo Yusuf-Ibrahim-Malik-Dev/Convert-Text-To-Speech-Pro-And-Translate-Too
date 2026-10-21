@@ -1,26 +1,20 @@
-using System;
+﻿using System;
+using System.Text;
+using System.Web.UI;
 
 namespace ConvertTextToSpeech
 {
     /// <summary>
-    /// ASP.NET Web Forms page for the Text-to-Speech application.
-    /// Speech synthesis, voice selection, translation and recording remain in the browser,
-    /// while the primary text fields are genuine Web Forms server controls.
+    /// Main Web Forms page. Speech, microphone, translation, and visualization
+    /// remain browser-side and continue to use the original JavaScript libraries.
     /// </summary>
-    public partial class Default : System.Web.UI.Page
+    public partial class Default : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            // Preserve the stable DOM IDs used by the original JavaScript.
-            // ClientIDMode="Static" ensures ASP.NET does not prepend naming-container IDs.
-            text.Attributes["onscroll"] = "syncScroll('text', 'highlightLayer')";
-            translateResult.Attributes["onscroll"] = "syncScroll('translateResult', 'highlightTranslateLayer')";
-
-            // Avoid reinitializing the UI on postback; the page is primarily client-driven.
-            if (!IsPostBack)
-            {
-                ViewState["ApplicationName"] = "Text To Speech Pro - Visualizer & Translator Ultimate";
-            }
+            // Explicit UTF-8 response encoding helps browsers display Unicode correctly.
+            Response.ContentEncoding = Encoding.UTF8;
+            Response.Charset = "utf-8";
         }
     }
 }

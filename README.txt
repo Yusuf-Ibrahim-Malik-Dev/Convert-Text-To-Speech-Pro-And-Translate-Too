@@ -1,18 +1,12 @@
-CONVERT TEXT TO SPEECH ULTIMATE — ASP.NET WEB FORMS
-Target framework: .NET Framework 4.8
-Language: C#
+﻿Convert Text To Speech Ultimate - ASP.NET Web Forms / .NET Framework 4.8
 
-OPEN / RUN
 1. Extract the ZIP.
 2. Open ConvertTextToSpeech.sln in Visual Studio 2022.
-3. Install the “ASP.NET and web development” workload and .NET Framework 4.8 Developer Pack.
-4. Set ConvertTextToSpeech as the startup project and press F5.
+3. Install the ASP.NET and web development workload and .NET Framework 4.8 Developer Pack.
+4. Set ConvertTextToSpeech as Startup Project and press F5.
 
-WEB FORMS CONVERSION NOTES
-- Default.aspx is the Web Forms page and is hosted inside one server-side form.
-- The main text editor and translation output are ASP.NET TextBox controls with static client IDs.
-- JavaScript-driven buttons explicitly use type="button" to prevent unwanted Web Forms postbacks.
-- Speech synthesis, microphone permissions, audio recording, browser voices and translation services remain browser-side features.
-- Microphone APIs generally require HTTPS or localhost and user permission.
-
-This project has been structurally updated for Web Forms, but a Windows Visual Studio build/runtime test was not available in this environment.
+Default.aspx is based on the original index.html and is saved as UTF-8 with BOM.
+The original JavaScript libraries and assets are retained. Speech synthesis, microphone,
+recording, and translation features run in the browser and may depend on browser support,
+permissions, and internet access. Build/runtime has not been tested in Visual Studio on Windows.
+IIS Express URL is configured to localhost:5000; change if the port is already in use.
