@@ -1,6 +1,0 @@
-Convert-Text-To-Speech/
-├── assets/
-│   └── local-translate.js
-├── index.html
-├── package.json
-└── setup-assets.js
